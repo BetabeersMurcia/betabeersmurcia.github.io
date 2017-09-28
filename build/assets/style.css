@@ -1,0 +1,89 @@
+body, html {
+  height: 100%; }
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url("../../assets/styles/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype"); }
+
+.et-header {
+  background: url("../../assets/images/murcia_background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 60vh;
+  position: relative; }
+  .et-header:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    background-color: #d32f2f;
+    top: 0;
+    opacity: 0.5; }
+  .et-header h1 {
+    font-size: 6em;
+    line-height: 1.5; }
+
+h2 {
+  font-size: 3em;
+  font-weight: bold; }
+
+.et-img-portfolio {
+  width: 100%; }
+
+.et-title {
+  font-family: 'Open Sans Bold'; }
+
+.et-text {
+  font-size: 1.25em; }
+
+.et-buttons {
+  justify-content: center; }
+
+.et-speaker-img,
+.et-sponsor-img {
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 175px; }
+
+.et-google-maps {
+  position: relative;
+  padding-bottom: 450px;
+  height: 0;
+  overflow: hidden; }
+
+.et-google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 450px; }
+
+.et-agenda td {
+  padding: 1em; }
+
+.et-code-of-conduct h3,
+.et-code-of-conduct p {
+  padding: 0.5em 0; }
+
+.et-tool-animated {
+  display: inline-block;
+  -webkit-animation: rotation 3s infinite linear;
+  animation: rotation 3s infinite linear;
+  font-size: 5em; }
+
+@keyframes rotation {
+  to {
+    transform: rotate(0deg); }
+  from {
+    transform: rotate(359deg); } }
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(359deg); } }
+
+@media all and (max-width: 993px) {
+  .et-text {
+    font-size: 1em; }
+  .et-header h1 {
+    font-size: 2em; } }

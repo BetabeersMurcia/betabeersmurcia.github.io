@@ -1,4 +1,4 @@
 .DS_Store
 node_modules
 bower_components
-src/partials/agenda_sample
+src/partials/agenda_sample.hbs

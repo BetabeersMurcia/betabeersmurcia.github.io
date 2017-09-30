@@ -85,7 +85,7 @@ h2 {
   .et-text {
     font-size: 1em; }
   .et-header {
-    height: 100%;
+    height: auto;
     line-height: 1; }
     .et-header:before {
       height: 100%; }

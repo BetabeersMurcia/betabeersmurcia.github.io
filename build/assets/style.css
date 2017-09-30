@@ -1,23 +1,14 @@
-body, html {
-  height: 100%; }
-
+@charset "UTF-8";
 @font-face {
   font-family: 'Open Sans Bold';
   src: url("../../assets/styles/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype"); }
 
+body, html {
+  height: 100%;
+  -webkit-overflow-scrolling: touch; }
+
 .et-header {
-  background: url("../../assets/images/murcia_background.jpg") no-repeat center center fixed;
-  background-size: cover;
-  height: 60vh;
-  position: relative; }
-  .et-header:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 60vh;
-    background-color: #d32f2f;
-    top: 0;
-    opacity: 0.5; }
+  height: 60vh; }
   .et-header h1 {
     font-size: 6em;
     line-height: 1.5; }
@@ -64,6 +55,13 @@ h2 {
 .et-code-of-conduct h3,
 .et-code-of-conduct p {
   padding: 0.5em 0; }
+
+.et-list li {
+  margin: .5em 0; }
+  .et-list li:before {
+    font-weight: bold;
+    padding-right: .5em;
+    content: '❋'; }
 
 .et-tool-animated {
   display: inline-block;

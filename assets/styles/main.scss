@@ -1,27 +1,15 @@
-body, html {
-  height: 100%;
-}
-
 @font-face {
   font-family: 'Open Sans Bold';
   src: url('../../assets/styles/fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype'),;
 }
 
-.et-header {
-  background: url('../../assets/images/murcia_background.jpg') no-repeat center center fixed;
-  background-size: cover;
-  height: 60vh;
-  position: relative;
+body, html {
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
 
-  &:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 60vh;
-    background-color: #d32f2f;
-    top: 0;
-    opacity: 0.5;
-  }
+.et-header {
+  height: 60vh;
 
   h1 {
     font-size: 6em;
@@ -83,6 +71,18 @@ h2 {
   h3,
   p {
     padding: 0.5em 0;
+  }
+}
+
+.et-list {
+  li {
+    margin: .5em 0;
+
+    &:before {
+      font-weight: bold;
+      padding-right: .5em;
+      content: '❋';
+    }
   }
 }
 

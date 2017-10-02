@@ -69,6 +69,9 @@ h2 {
   animation: rotation 3s infinite linear;
   font-size: 5em; }
 
+.et-talk-title {
+  font-weight: bold; }
+
 @keyframes rotation {
   to {
     transform: rotate(0deg); }

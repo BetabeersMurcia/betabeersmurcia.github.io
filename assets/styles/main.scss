@@ -41,11 +41,19 @@ h2 {
 }
 
 .et-speaker-img,
-.et-sponsor-img,
 .et-org-img {
   border-radius: 50%;
   margin: 0 auto;
   width: 175px;
+}
+
+.et-sponsor-img {
+  margin: 0 auto;
+  width: 200px;
+}
+
+.et-sponsor-img--erasmusu {
+  width: 300px;
 }
 
 .et-google-maps {
